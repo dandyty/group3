@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   max-width: 100%;
+}
+.show {
+    background-image:radial-gradient(hsl(0, 98%, 51%),rgba(236, 94, 12, 0.959));
+    background-size: contain;
+    overflow: hidden;
+}
+.firstpage {
+    max-width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+.logoandtext {
+    display: flex;
+    color: #fff;
+    margin-left: 100px;
+    align-items: center;
+}
+.logoandpage img {
+    color: #fff;
+}
+.nav-menu {
+    margin-right: 40px;
+    align-items: center;
+    padding: 30px;
+}
+.nav-menu ul {
+    display: inline-block;
+}
+.nav-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+.nav-menu ul li a {
+    color: rgba(209, 201, 201, 0.986);
+    text-decoration: none;
+}
+.you {
+    color: rgba(204, 196, 196, 0.986);
+    text-decoration: none;
+}
+.nav-menu a:hover {
+    color: #fff;
+}
+.text {
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 10%;
+    margin-top: 100px;
+}
+.text h1 {
+    margin-top: 7%;
+    color: #fff;
+    font-family: monospace;
+    font-size: 50px;
+}
+.text p {
+    color: #fff;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.text ul {
+    margin-top: 10px;
+    color: #fff;
+    line-height: 30px;
+}
+.text ul li {
+    list-style-type:circle;
+    list-style-image: radial-gradient(black,white);
+}
+.content {
+    display: flex;
+    flex-basis: 50%;
+}
+.image {
+    margin-left: 300px;
+    margin-top: 100px;
+    animation-name: image;
+    animation-play-state:running;
+    animation-duration: 7s;
+    position: relative;
+    /* animation-iteration-count:calc(3); */
+}
+
+.page-content {
+    background-color: #fff;
+}
+.icon-text-1 {
+    display: flex;
+}
+.icon-text-2 {
+    display: flex;
+}
+.icons-text {
+    display: flex;
+    background-color: #fff;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.words {
+    margin-left: 10px;
+}
+.icons-text p {
+    display: block;
+    margin-top: 15px;
+}
+.icons-text h4 {
+    display: block;
+    font-size: 25px;
+}
+.icons-text img {
+    width: 60px; 
+    /* color: rgb(255, 51, 0); */
+}
+.line {
+    background-color:rgba(26, 24, 24, 0.2);
+    width: 100%;
+    height: 1px;
+    margin-top: 100px;
+}
+.continuation {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.picture img {
+    width: 500px;
+}
+.text-pics {
+    margin-top: 50px;
+}
+.text-pics h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.text-pics p {
+    font-size: 23px;
+    line-height: 30px;
+}
+.p-c p{
+    margin-top: 20px;
+}
+.text-pics ul {
+    list-style-type:circle;
+    list-style-image: radial-gradient(black,white);
+    margin-top: 20px;
+    font-size: 20px;
+    /* line-height: 30px; */
+}
+.text-pics ul li {
+    line-height: 30px;
+}
+.slide-show {
+    margin-top: 60px;
+}
+.slide-show h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.slide-show  p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+.animation {
+    display: flex;
+    top: 40px;
+    width: 40px;
+    height: 50%;
+    margin-left: 80px;
+    margin-right: 300px;
+    /* position: relative; */
+}
+.animation img {
+    width: 400px;
+    height: 200px;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.last{
+    margin-top: 40px;
+}
+.last h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.last p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.row {
+    display: flex;
+    max-width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+.col {
+    line-height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.col p2{
+    color: rgb(136, 139, 153);
+    font-size: 17px;
+}
+.col h2 {
+    font-size: 19px;
+    color: rgb(65, 66, 71);
+}
+.highlight {
+    font-size: 35px;
+    color: black;
+    font-family: monospace;
+    padding: 20px;
+}
+.high {
+    font-size: 35px;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    background-image:radial-gradient(rgb(238, 45, 20),rgb(255, 72, 0)) ;
+    color: #fff;
+    font-family: monospace;
+}
+.col:hover {
+    transform: translateY(-10px);
+}
+.button {
+    margin-top: 40px;
+    color: rgb(124, 117, 117);
+}
+.button  button {
+    background-color: transparent;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+}
+.but {
+    margin-top: 40px;
+    color: rgb(124, 117, 117);
+}
+.but button {
+    background-image:radial-gradient(rgb(238, 45, 20),rgb(255, 72, 0)) ;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}
+.screenshoot{
+    text-align: center;
+    margin: auto 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.screenshoot h1{
+    margin-bottom: 30px;
+    color: rgb(65, 66, 71);
+}
+
+.screenshoot p{
+    margin-bottom: 30px;
+    color: rgb(136, 139, 153)
+}
+.ref .name .name-list{
+    display: flex;
+    flex-basis: 10%;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    color: rgb(136, 139, 153);
+    margin-bottom: 50px;
+}
+
+.name .data{
+    padding: 10px;
+    width: 350px;
+}
+.name .data .image{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+.name .data .image img{
+    border-radius: 50px;
+    width: 100px;
+}
+.harry h3 {
+    margin-bottom: 10px;
+}
+.playstore{
+    background-image: radial-gradient(hsl(0, 98%, 51%),rgba(236, 94, 12, 0.959));
+    position: relative;
+    margin: auto;
+}
+.playstore .playstore-1{
+    max-width: 70%;
+    margin: auto;
+}
+.playstore .playstore-1 .playstore-link{
+    padding: 70px 0;
+}
+.playstore .playstore-1 .playstore-link .load{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.playstore .playstore-1 .playstore-link h1{
+    font-size: 25px;
+}
+.playstore .playstore-item{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.playstore .playstore-store{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.playstore-item img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.playstore-item img:hover{
+    filter: grayscale(0);
+}
+.playstore .playstore-item:hover{
+    transform: translateY(-5px);
+}
+.buttom{
+    margin: 30px auto;   
+}
+.buttom-container {
+   background-color: rgb(14, 13, 13);
+}
+.buttom .button-log{
+    width: 300px;
+    margin: auto; 
+   
+}
+.buttom .button-copy{
+    text-align: center;
+    color: rgb(88, 86, 86);
+}
+.buttom .button-copy .button-flip{
+    color: rgb(75, 73, 73);
+}
+.apple a{
+    text-decoration: none;
+    color: #000;
+}
+.logweb{
+    margin: 15px;
+}
+.copyright{
+    margin: 20px;
+}
+.bb{
+    display: none;
+}
+
